@@ -16,4 +16,4 @@ jobs:
         uses: undefinedlabs/scope-for-python-action@master
         with:
           dsn: ${{secrets.SCOPE_DSN}}
-          command: ./manage test
+          command: ./manage.py test
