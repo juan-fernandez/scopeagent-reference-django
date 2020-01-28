@@ -13,7 +13,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Scope for Python
-        uses: undefinedlabs/scope-for-python-action@master
+        uses: undefinedlabs/scope-for-python-action@try-beta
         with:
           dsn: ${{secrets.SCOPE_DSN}}
           command: ./manage.py test
